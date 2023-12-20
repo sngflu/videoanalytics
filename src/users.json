@@ -1,0 +1,31 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "firstName": "John",
+            "lastName": "Doe",
+            "patronymic": "Smith",
+            "phoneNumber": "123456789",
+            "email": "john.doe@example.com",
+            "password": "password123"
+        },
+        {
+            "id": 2,
+            "firstName": "Alice",
+            "lastName": "Johnson",
+            "patronymic": "Williams",
+            "phoneNumber": "987654321",
+            "email": "alice.johnson@example.com",
+            "password": "alicepass456"
+        },
+        {
+            "id": 3,
+            "firstName": "Bob",
+            "lastName": "Miller",
+            "patronymic": "Jones",
+            "phoneNumber": "555555555",
+            "email": "bob.miller@example.com",
+            "password": "bobpass789"
+        }
+    ]
+}
