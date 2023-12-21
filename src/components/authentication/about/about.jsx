@@ -1,7 +1,8 @@
-import React from 'react';
 import './about.css'
 import cctv from '../../../assets/about/cctv.svg'
 import shield from '../../../assets/about/shield.svg'
+
+
 function About() {
     return (
         <div className='about'>

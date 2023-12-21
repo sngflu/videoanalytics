@@ -1,0 +1,41 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 5vw;
+    background-color: #333;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: width 0.3s ease;
+}
+
+.navbar.open {
+    width: 10vw;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu button,
+.bottom-menu button {
+    width: 100%;
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover,
+.bottom-menu button:hover {
+    background-color: #777;
+}

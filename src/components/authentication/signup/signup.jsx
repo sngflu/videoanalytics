@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './signup.css';
 import logo_nva from '../../../assets/logo_nva.svg';
 import { signupUser } from '../../../api/auth';
