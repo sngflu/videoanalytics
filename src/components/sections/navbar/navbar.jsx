@@ -37,10 +37,12 @@ export default function Navbar() {
                 <Link to="/floor/0">
                     <button>0 этаж</button>
                 </Link>
-            </div>
-            <div className="bottom-menu">
-                <button>Настройки</button>
-                <button>Выйти</button>
+                <Link to="/settings">
+                    <button>Настройки</button>
+                </Link>
+                <Link to="/">
+                    <button>Выйти</button>
+                </Link>
             </div>
         </div>
     );
