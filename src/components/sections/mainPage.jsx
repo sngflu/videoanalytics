@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Navbar from './navbar/navbar';
 
-const Main = () => {
+const MainPage = () => {
     const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 
     const toggleNavbar = () => {
@@ -15,4 +15,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default MainPage;

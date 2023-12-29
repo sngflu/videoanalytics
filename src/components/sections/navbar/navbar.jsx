@@ -6,6 +6,14 @@ import './navbar.css';
 export default function Navbar() {
     const [isHovered, setIsHovered] = useState(false);
 
+    const floorButtons = [
+        { floor: 4, label: '4 этаж' },
+        { floor: 3, label: '3 этаж' },
+        { floor: 2, label: '2 этаж' },
+        { floor: 1, label: '1 этаж' },
+        { floor: 0, label: '0 этаж' },
+    ];
+
     return (
         <div
             className={`navbar ${isHovered ? 'open' : ''}`}
@@ -22,21 +30,11 @@ export default function Navbar() {
                 <Link to="/main">
                     <button>На главную</button>
                 </Link>
-                <Link to="/floor/4">
-                    <button>4 этаж</button>
-                </Link>
-                <Link to="/floor/3">
-                    <button>3 этаж</button>
-                </Link>
-                <Link to="/floor/2">
-                    <button>2 этаж</button>
-                </Link>
-                <Link to="/floor/1">
-                    <button>1 этаж</button>
-                </Link>
-                <Link to="/floor/0">
-                    <button>0 этаж</button>
-                </Link>
+                {floorButtons.map((item) => (
+                    <Link key={item.floor} to={`/floor/${item.floor}`}>
+                        <button>{item.label}</button>
+                    </Link>
+                ))}
                 <Link to="/settings">
                     <button>Настройки</button>
                 </Link>
