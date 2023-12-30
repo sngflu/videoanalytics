@@ -13,7 +13,7 @@ function About() {
                 Что такое Narfu video analytics?
             </p>
             <p className='nva'>
-                NVA - это локальная программа для видеоаналитики.
+                NVA - это локальная программа для видеоаналитикии.
             </p>
         </div>
     );
