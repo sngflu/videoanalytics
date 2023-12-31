@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import logo_nva from '../../../assets/logo_nva.svg';
 import './navbar.css';
 
-export default function Navbar() {
+export default function Navbar({ setIsNavbarOpen }) {
     const [isHovered, setIsHovered] = useState(false);
 
     const floorButtons = [
@@ -17,8 +17,14 @@ export default function Navbar() {
     return (
         <div
             className={`navbar ${isHovered ? 'open' : ''}`}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
+            onMouseEnter={() => {
+                setIsHovered(true);
+                setIsNavbarOpen(true);
+            }}
+            onMouseLeave={() => {
+                setIsHovered(false);
+                setIsNavbarOpen(false);
+            }}
         >
             <div className="logo">
                 <img src={logo_nva} alt="Логотип" />

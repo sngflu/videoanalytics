@@ -1,0 +1,24 @@
+{
+    "sensors": [
+        {
+            "type": "peopleCount",
+            "value": 20
+        },
+        {
+            "type": "weaponsSituation",
+            "value": "no weapons"
+        },
+        {
+            "type": "fireSafetySituation",
+            "value": "normal"
+        },
+        {
+            "type": "deviantBehaviorSituation",
+            "value": "normal"
+        },
+        {
+            "type": "furnitureSituation",
+            "value": 5
+        }
+    ]
+}

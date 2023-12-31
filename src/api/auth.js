@@ -1,4 +1,4 @@
-import usersData from '../users.json';
+import usersData from '../data/users.json';
 
 export const signupUser = (userData) => {
     const { firstName, lastName, patronymic, phoneNumber, email, password } = userData;

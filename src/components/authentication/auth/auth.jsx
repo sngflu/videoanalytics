@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Login from '../login/login';
 import Signup from '../signup/signup';
 import About from '../about/about';
-import Main from '../../sections/mainPage';
+import Main from '../../sections/mainPage/mainPage';
 import './auth.css';
 
 export default function Authentication() {
