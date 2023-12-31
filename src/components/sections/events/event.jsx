@@ -19,7 +19,14 @@ const Event = ({ event }) => {
     const eventStyle = getEventStyle(eventType);
 
     return (
-        <div style={{ display: "flex", alignItems: "center", ...eventStyle, padding: "10px", marginBottom: "10px" }}>
+        <div style={{
+            ...eventStyle,
+            display: "flex",
+            alignItems: "center",
+            padding: "10px",
+            marginBottom: "10px",
+            borderRadius: "10px"
+        }}>
             <p>{floor} этаж {time}</p>
             <p style={{ flex: 1, margin: "0 10px" }}>{description}</p>
             <a href={cameraLink} target="_blank" rel="noopener noreferrer">

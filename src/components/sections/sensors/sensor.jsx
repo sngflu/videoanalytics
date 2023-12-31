@@ -16,7 +16,20 @@ const Sensor = ({ sensor }) => {
     };
 
     return (
-        <div style={{ display: 'flex', border: '1px solid #e3e3e3', backgroundColor: '#f2f2f2', padding: '10px', margin: '5px', textAlign: 'center', width: '150px', height: '150px', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{
+            display: 'flex',
+            border: '1px solid #e3e3e3',
+            backgroundColor: '#f2f2f2',
+            padding: '10px',
+            margin: '5px',
+            textAlign: 'center',
+            width: '150px',
+            height: '150px',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            borderRadius: '10px'
+        }}>
             <img src={images[type]} alt={type} style={{ width: '75px', height: '75px' }} />
             <p>{value}</p>
         </div>

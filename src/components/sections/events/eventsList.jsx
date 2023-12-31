@@ -17,7 +17,7 @@ const EventsList = () => {
     return (
         <div >
             <h2 style={{ textAlign: 'center' }}>Events List</h2>
-            <div style={{ maxHeight: '70vh', width: '40vw', overflowY: 'auto' }}>
+            <div style={{ maxHeight: '80vh', width: '40vw', overflowY: 'auto' }}>
                 {events.map((event) => (
                     <Event key={event.time} event={event} />
                 ))}

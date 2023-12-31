@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import logo_nva from '../../../assets/logo_nva.svg';
 import './navbar.css';
 
-export default function Navbar({ setIsNavbarOpen }) {
+const Navbar = ({ setIsNavbarOpen }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const floorButtons = [
@@ -50,4 +51,10 @@ export default function Navbar({ setIsNavbarOpen }) {
             </div>
         </div>
     );
-}
+};
+
+Navbar.propTypes = {
+    setIsNavbarOpen: PropTypes.func.isRequired,
+};
+
+export default Navbar;
