@@ -1,0 +1,56 @@
+{
+    "sensors": [
+        {
+            "type": "peopleCount",
+            "value": 20
+        },
+        {
+            "type": "weaponsSituation",
+            "value": false
+        },
+        {
+            "type": "fireSafetySituation",
+            "value": "normal"
+        },
+        {
+            "type": "deviantBehaviorSituation",
+            "value": "normal"
+        },
+        {
+            "type": "furnitureSituation",
+            "value": 5
+        }
+    ],
+    "events": [
+        {
+            "floor": 0,
+            "time": "2023-11-01T12:00:00",
+            "eventType": "neutral",
+            "cameraLink": "/camera/1"
+        },
+        {
+            "floor": 1,
+            "time": "2023-11-01T12:15:00",
+            "eventType": "suspicious",
+            "cameraLink": "/camera/2"
+        },
+        {
+            "floor": 2,
+            "time": "2023-11-01T12:30:00",
+            "eventType": "danger",
+            "cameraLink": "/camera/3"
+        },
+        {
+            "floor": 3,
+            "time": "2023-11-01T12:45:00",
+            "eventType": "neutral",
+            "cameraLink": "/camera/4"
+        },
+        {
+            "floor": 4,
+            "time": "2023-11-01T13:00:00",
+            "eventType": "suspicious",
+            "cameraLink": "/camera/5"
+        }
+    ]
+}

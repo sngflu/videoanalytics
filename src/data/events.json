@@ -1,0 +1,109 @@
+{
+    "events": [
+        {
+            "floor": 0,
+            "time": "12:00:00",
+            "eventType": "neutral",
+            "description": "Человек переносит стул",
+            "cameraLink": "/camera/1"
+        },
+        {
+            "floor": 1,
+            "time": "12:15:00",
+            "eventType": "suspicious",
+            "description": "Человек странно себя ведет",
+            "cameraLink": "/camera/2"
+        },
+        {
+            "floor": 2,
+            "time": "12:30:00",
+            "eventType": "danger",
+            "description": "Обнаружено оружие",
+            "cameraLink": "/camera/3"
+        },
+        {
+            "floor": 3,
+            "time": "12:45:00",
+            "eventType": "neutral",
+            "description": "Человек переносит стол",
+            "cameraLink": "/camera/4"
+        },
+        {
+            "floor": 4,
+            "time": "13:00:00",
+            "eventType": "suspicious",
+            "description": "Человек бегает под камерой",
+            "cameraLink": "/camera/5"
+        },
+        {
+            "floor": 0,
+            "time": "13:15:00",
+            "eventType": "neutral",
+            "description": "Человек читает газету",
+            "cameraLink": "/camera/6"
+        },
+        {
+            "floor": 1,
+            "time": "13:30:00",
+            "eventType": "suspicious",
+            "description": "Подозрительное движение в темном углу",
+            "cameraLink": "/camera/7"
+        },
+        {
+            "floor": 2,
+            "time": "13:45:00",
+            "eventType": "danger",
+            "description": "Возгорание в помещении",
+            "cameraLink": "/camera/8"
+        },
+        {
+            "floor": 3,
+            "time": "14:00:00",
+            "eventType": "neutral",
+            "description": "Группа людей проводит встречу",
+            "cameraLink": "/camera/9"
+        },
+        {
+            "floor": 4,
+            "time": "14:15:00",
+            "eventType": "suspicious",
+            "description": "Человек с большой сумкой",
+            "cameraLink": "/camera/10"
+        },
+        {
+            "floor": 0,
+            "time": "14:30:00",
+            "eventType": "danger",
+            "description": "Сигнализация о взломе",
+            "cameraLink": "/camera/11"
+        },
+        {
+            "floor": 1,
+            "time": "14:45:00",
+            "eventType": "neutral",
+            "description": "Работник убирает помещение",
+            "cameraLink": "/camera/12"
+        },
+        {
+            "floor": 2,
+            "time": "15:00:00",
+            "eventType": "suspicious",
+            "description": "Несанкционированный доступ",
+            "cameraLink": "/camera/13"
+        },
+        {
+            "floor": 3,
+            "time": "15:15:00",
+            "eventType": "danger",
+            "description": "Пожар в коридоре",
+            "cameraLink": "/camera/14"
+        },
+        {
+            "floor": 4,
+            "time": "15:30:00",
+            "eventType": "neutral",
+            "description": "Посетитель забыл сумку",
+            "cameraLink": "/camera/15"
+        }
+    ]
+}

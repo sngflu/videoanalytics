@@ -1,0 +1,35 @@
+.main-page {
+    display: flex;
+}
+
+.navbar-container {
+    width: 5vw;
+    transition: width 0.3s ease;
+}
+
+.navbar-open .navbar-container {
+    width: 10vw;
+}
+
+.content-container {
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    transition: padding-left 0.3s ease;
+}
+
+.events-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sensors-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
