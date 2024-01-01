@@ -1,16 +1,18 @@
 import { Link } from 'react-router-dom';
-import cat from '../../../assets/cat.jpg'
+import cat from '../../../assets/cat.jpg';
 
 const Header = () => {
     return (
         <div style={{
             display: 'flex',
+            fontSize: '20px',
             justifyContent: 'space-between',
-            padding: '15px',
-            borderBottom: '1px solid #ccc'
+            alignItems: 'center',
+            padding: '0 20px',
+            borderBottom: '1px solid #ccc',
         }}>
             <div>
-
+                <h2>Welcome back!</h2>
             </div>
             <div>
                 <Link to="/settings">

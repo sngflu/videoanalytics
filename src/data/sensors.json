@@ -2,23 +2,128 @@
     "sensors": [
         {
             "type": "peopleCount",
-            "value": 20
+            "floors": [
+                {
+                    "floor": 4,
+                    "value": 15
+                },
+                {
+                    "floor": 3,
+                    "value": 25
+                },
+                {
+                    "floor": 2,
+                    "value": 30
+                },
+                {
+                    "floor": 1,
+                    "value": 18
+                },
+                {
+                    "floor": 0,
+                    "value": 10
+                }
+            ]
         },
         {
             "type": "weaponsSituation",
-            "value": "no weapons"
+            "floors": [
+                {
+                    "floor": 4,
+                    "value": "normal"
+                },
+                {
+                    "floor": 3,
+                    "value": "normal"
+                },
+                {
+                    "floor": 2,
+                    "value": "normal"
+                },
+                {
+                    "floor": 1,
+                    "value": "normal"
+                },
+                {
+                    "floor": 0,
+                    "value": "normal"
+                }
+            ]
         },
         {
             "type": "fireSafetySituation",
-            "value": "normal"
+            "floors": [
+                {
+                    "floor": 4,
+                    "value": "normal"
+                },
+                {
+                    "floor": 3,
+                    "value": "normal"
+                },
+                {
+                    "floor": 2,
+                    "value": "fire detected"
+                },
+                {
+                    "floor": 1,
+                    "value": "normal"
+                },
+                {
+                    "floor": 0,
+                    "value": "normal"
+                }
+            ]
         },
         {
             "type": "deviantBehaviorSituation",
-            "value": "normal"
+            "floors": [
+                {
+                    "floor": 4,
+                    "value": "normal"
+                },
+                {
+                    "floor": 3,
+                    "value": "deviant behavior reported"
+                },
+                {
+                    "floor": 2,
+                    "value": "normal"
+                },
+                {
+                    "floor": 1,
+                    "value": "normal"
+                },
+                {
+                    "floor": 0,
+                    "value": "normal"
+                }
+            ]
         },
         {
             "type": "furnitureSituation",
-            "value": 5
+            "floors": [
+                {
+                    "floor": 4,
+                    "value": 12
+                },
+                {
+                    "floor": 3,
+                    "value": 252
+                },
+                {
+                    "floor": 2,
+                    "value": 73
+                },
+                {
+                    "floor": 1,
+                    "value": 13
+                },
+                {
+                    "floor": 0,
+                    "value": 1
+                }
+            ]
         }
     ]
 }

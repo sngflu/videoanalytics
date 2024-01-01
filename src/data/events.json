@@ -65,6 +65,13 @@
         },
         {
             "floor": 4,
+            "time": "00:00:00",
+            "eventType": "puk-hruk",
+            "description": "Непонятное событие",
+            "cameraLink": "/camera/15"
+        },
+        {
+            "floor": 4,
             "time": "14:15:00",
             "eventType": "suspicious",
             "description": "Человек с большой сумкой",

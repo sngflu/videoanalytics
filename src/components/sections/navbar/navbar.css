@@ -5,8 +5,7 @@
     height: 100vh;
     width: 5vw;
     min-width: 108px;
-    background-color: #333;
-    padding-top: 20px;
+    background-color: #b9dcff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,22 +17,77 @@
     width: 10vw;
 }
 
-.logo img {
-    width: 60%;
-    max-width: 150px;
-    display: block;
-    margin: 0 auto;
+.logo {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
 }
 
-.menu button {
+.menu,
+.bottom-menu {
     width: 100%;
-    padding: 10px;
-    background-color: #555;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu button,
+.bottom-menu button {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    color: #142232;
     text-align: left;
     transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
 }
 
-.menu button:hover {
-    background-color: #777;
+.menu button:hover,
+.bottom-menu button:hover {
+    background-color: #009ed6;
+}
+
+.menu a,
+.bottom-menu a {
+    text-decoration: none;
+}
+
+.bottom-menu {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.logo img.closed {
+    width: 60px;
+    display: block;
+    margin: auto;
+}
+
+.menu button img.closed {
+    width: 55px;
+}
+
+.menu a button.open,
+.bottom-menu a button.open {
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-menu a button.open span {
+    padding-left: 10px;
+}
+
+.logout-button img {
+    padding-left: 8px;
 }
