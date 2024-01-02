@@ -2,115 +2,163 @@
     "events": [
         {
             "floor": 0,
-            "time": "12:00:00",
-            "eventType": "neutral",
-            "description": "Человек переносит стул",
-            "cameraLink": "/camera/1"
+            "time": "16:00:00",
+            "eventType": "suspicious",
+            "description": "Человек с подозрительной улыбкой",
+            "cameraId": 17,
+            "location": "Кабинет 104"
         },
         {
             "floor": 1,
-            "time": "12:15:00",
-            "eventType": "suspicious",
-            "description": "Человек странно себя ведет",
-            "cameraLink": "/camera/2"
+            "time": "16:15:00",
+            "eventType": "danger",
+            "description": "Падение книжной полки",
+            "cameraId": 18,
+            "location": "Библиотека"
         },
         {
             "floor": 2,
-            "time": "12:30:00",
-            "eventType": "danger",
-            "description": "Обнаружено оружие",
-            "cameraLink": "/camera/3"
+            "time": "16:30:00",
+            "eventType": "neutral",
+            "description": "Лекция по искусственному интеллекту",
+            "cameraId": 19,
+            "location": "Аудитория 201"
         },
         {
             "floor": 3,
-            "time": "12:45:00",
-            "eventType": "neutral",
-            "description": "Человек переносит стол",
-            "cameraLink": "/camera/4"
+            "time": "16:45:00",
+            "eventType": "suspicious",
+            "description": "Тень на камере",
+            "cameraId": 20,
+            "location": "Кабинет 302"
         },
         {
             "floor": 4,
-            "time": "13:00:00",
-            "eventType": "suspicious",
-            "description": "Человек бегает под камерой",
-            "cameraLink": "/camera/5"
+            "time": "17:00:00",
+            "eventType": "danger",
+            "description": "Взрыв химического оборудования",
+            "cameraId": 21,
+            "location": "Кабинет 401"
         },
         {
             "floor": 0,
-            "time": "13:15:00",
+            "time": "17:15:00",
             "eventType": "neutral",
-            "description": "Человек читает газету",
-            "cameraLink": "/camera/6"
+            "description": "Студенты устраивают пикник",
+            "cameraId": 22,
+            "location": "Левый коридор"
         },
         {
             "floor": 1,
-            "time": "13:30:00",
+            "time": "17:30:00",
             "eventType": "suspicious",
-            "description": "Подозрительное движение в темном углу",
-            "cameraLink": "/camera/7"
+            "description": "Неопознанный объект на камере",
+            "cameraId": 23,
+            "location": "Кабинет 102"
         },
         {
             "floor": 2,
-            "time": "13:45:00",
+            "time": "17:45:00",
             "eventType": "danger",
-            "description": "Возгорание в помещении",
-            "cameraLink": "/camera/8"
+            "description": "Вандализм на стенах",
+            "cameraId": 24,
+            "location": "Лестничный пролет 1 этажа"
         },
         {
             "floor": 3,
-            "time": "14:00:00",
+            "time": "18:00:00",
             "eventType": "neutral",
-            "description": "Группа людей проводит встречу",
-            "cameraLink": "/camera/9"
+            "description": "Уборка после лекции",
+            "cameraId": 25,
+            "location": "Аудитория 304"
         },
         {
             "floor": 4,
-            "time": "00:00:00",
-            "eventType": "puk-hruk",
-            "description": "Непонятное событие",
-            "cameraLink": "/camera/15"
-        },
-        {
-            "floor": 4,
-            "time": "14:15:00",
+            "time": "18:15:00",
             "eventType": "suspicious",
-            "description": "Человек с большой сумкой",
-            "cameraLink": "/camera/10"
+            "description": "Лицо в маске",
+            "cameraId": 26,
+            "location": "Лестничный пролет 3 этажа"
         },
         {
             "floor": 0,
-            "time": "14:30:00",
+            "time": "18:30:00",
             "eventType": "danger",
-            "description": "Сигнализация о взломе",
-            "cameraLink": "/camera/11"
+            "description": "Пожар в кабинете",
+            "cameraId": 27,
+            "location": "Кабинет 202"
         },
         {
             "floor": 1,
-            "time": "14:45:00",
+            "time": "18:45:00",
             "eventType": "neutral",
-            "description": "Работник убирает помещение",
-            "cameraLink": "/camera/12"
+            "description": "Студенты готовят проект",
+            "cameraId": 28,
+            "location": "Аудитория 203"
         },
         {
             "floor": 2,
-            "time": "15:00:00",
+            "time": "19:00:00",
             "eventType": "suspicious",
-            "description": "Несанкционированный доступ",
-            "cameraLink": "/camera/13"
+            "description": "Необычное движение на камере",
+            "cameraId": 29,
+            "location": "Кабинет 301"
         },
         {
             "floor": 3,
-            "time": "15:15:00",
+            "time": "19:15:00",
             "eventType": "danger",
-            "description": "Пожар в коридоре",
-            "cameraLink": "/camera/14"
+            "description": "Падение лестницы",
+            "cameraId": 30,
+            "location": "Лестничный пролет 2 этажа"
         },
         {
             "floor": 4,
-            "time": "15:30:00",
+            "time": "19:30:00",
             "eventType": "neutral",
-            "description": "Посетитель забыл сумку",
-            "cameraLink": "/camera/15"
+            "description": "Презентация стартапа",
+            "cameraId": 31,
+            "location": "Аудитория 401"
+        },
+        {
+            "floor": 0,
+            "time": "19:45:00",
+            "eventType": "suspicious",
+            "description": "Человек с рюкзаком",
+            "cameraId": 32,
+            "location": "Лестничный пролет 3 этажа"
+        },
+        {
+            "floor": 1,
+            "time": "20:00:00",
+            "eventType": "danger",
+            "description": "Пожар в столовой",
+            "cameraId": 33,
+            "location": "Столовая"
+        },
+        {
+            "floor": 2,
+            "time": "20:15:00",
+            "eventType": "neutral",
+            "description": "Обеденный перерыв",
+            "cameraId": 34,
+            "location": "Левый коридор"
+        },
+        {
+            "floor": 3,
+            "time": "20:30:00",
+            "eventType": "suspicious",
+            "description": "Человек в маске и перчатках",
+            "cameraId": 35,
+            "location": "Кабинет 403"
+        },
+        {
+            "floor": 4,
+            "time": "20:45:00",
+            "eventType": "danger",
+            "description": "Химическое загрязнение",
+            "cameraId": 36,
+            "location": "Лестничный пролет 1 этажа"
         }
     ]
 }

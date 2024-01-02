@@ -1,0 +1,28 @@
+.base-page {
+    display: flex;
+    height: 100vh;
+    transition: margin-left 0.3s ease;
+}
+
+.navbar-container {
+    width: 5vw;
+    transition: width 0.3s ease;
+}
+
+.navbar-open .navbar-container {
+    width: 10vw;
+}
+
+.main-content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

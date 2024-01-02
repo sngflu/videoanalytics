@@ -63,9 +63,9 @@ const Navbar = ({ setIsNavbarOpen }) => {
                 </a>
                 {floorButtons.map((item) => (
                     <a key={item.floor} href={`/floor/${item.floor}`}>
-                        <button
-                            className={`${compactVariation ? 'closed' : 'open'}`}
-                        >{compactVariation ? `${item.floor} эт.` : `${item.floor} этаж`}</button>
+                        <button className={`${compactVariation ? 'closed' : 'open'}`}>
+                            {compactVariation ? `${item.floor} эт.` : `${item.floor} этаж`}
+                        </button>
                     </a>
                 ))}
             </div>

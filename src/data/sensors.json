@@ -63,7 +63,7 @@
                 },
                 {
                     "floor": 2,
-                    "value": "fire detected"
+                    "value": "alert"
                 },
                 {
                     "floor": 1,
@@ -84,7 +84,7 @@
                 },
                 {
                     "floor": 3,
-                    "value": "deviant behavior reported"
+                    "value": "alert"
                 },
                 {
                     "floor": 2,
